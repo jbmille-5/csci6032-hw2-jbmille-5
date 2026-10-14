@@ -12,3 +12,19 @@
 
 &#x20;  This repository contains my Homework 2 lab notebook and everything else that goes along with homework 2.
 
+
+
+## Text statistics program
+
+Run the command-line program with a UTF-8 text file:
+
+```powershell
+python src\text_stats.py sample.txt
+```
+
+It prints JSON with the file's line, word, and character counts. Run the
+built-in test suite with:
+
+```powershell
+python -m unittest discover -s tests
+```
